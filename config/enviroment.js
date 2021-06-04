@@ -67,3 +67,17 @@ const production = {
 
 module.exports = eval(process.env.CODEIAL_ENVIRONMENT) == undefined ? development : eval(process.env.CODEIAL_ENVIRONMENT);
 // module.exports=development;
+
+/*
+export CODEIAL_ENVIROMENT="production"
+export CODEIAL_ASSETS_PATH="./public/assets"
+export CODEIAL_SESSION_COOKIE_KEY="HAZPg2fgcfaSDszCQ1wbsRJzu7f0qnfF"
+export CODEIAL_DB="codeial_production"
+export CODEIAL_GOOGLE_CLIENT_ID="483664659064-cge6jjonns13q1uhfvqid6v5pf9lcfoj.apps.googleusercontent.com"
+export CODEIAL_GOOGLE_CALLBACK_SECRET="JC3Sr2P9YrBa6mE-FOBHrEjv"
+export CODEIAL_GOOGLE_CALLBACK_URL="http://localhost:8000/users/auth/google/callback"
+export CODEIAL_GMAIL_USERNAME="ggaappuu1234@gmail.com"
+export CODEIAL_GMAIL_PASSWORD="yssiimkivqvtgkhu"
+export CODEIAL_JWT_SECRET="EqUBlhIIvjdRNQKH2XZuGO4X5DNdOJ1z"
+
+*/ 

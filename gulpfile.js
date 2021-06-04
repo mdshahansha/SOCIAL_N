@@ -45,6 +45,17 @@ gulp.task('js', function(done){
 
 gulp.task('images', function(done){
     console.log('compressing images...');
+    // .pipe (imagemin ([
+    //     pngquant ('65-80'),
+    //     mozjpeg ({
+    //         quality: 85,
+    //         progressive: true
+    //     }),
+    //     imagemin.svgo (),
+    //     imagemin.optipng (),
+    //     imagemin.gifsicle ()
+    // ], {verbose: true})
+    
     gulp.src('./assets/**/*.+(png|jpg|gif|svg|jpeg)')//regular expression --> is get minified
     .pipe(imagemin())
     .pipe(rev())
