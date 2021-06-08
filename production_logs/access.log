@@ -56,3 +56,11 @@
 [0mGET /users/css/header.css [33m404[0m 2.929 ms - 159[0m
 [0mGET /users/css/footer.css [33m404[0m 2.855 ms - 159[0m
 [0mGET / [32m200[0m 30.528 ms - 8834[0m
+[0mGET /users/auth/google/callback?code=4%2F0AY0e-g5u3mbDoIZsZ6ReAep2VSPEGVa_oFkNjOe8skYBb-HwAZ2AoZ-A3o-MZpl7uMwhFw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent [36m302[0m 1157.942 ms - 46[0m
+[0mGET / [32m200[0m 85.078 ms - 12959[0m
+[0mPOST /posts/create [32m200[0m 24.440 ms - 287[0m
+[0mPOST /posts/create [32m200[0m 24.372 ms - 287[0m
+[0mPOST /likes/toggle/?id=60b5418c74642b31cc3665f2&type=Post [32m200[0m 29.077 ms - 58[0m
+[0mGET / [32m200[0m 30.438 ms - 15943[0m
+[0mGET / [36m304[0m 19.215 ms - -[0m
+[0mGET / [0m-[0m - ms - -[0m
