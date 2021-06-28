@@ -1,5 +1,6 @@
 #home-container{
     display: flex;
+    // background-image: url(https://cdn.wallpapersafari.com/88/75/QKFd98.gif);
     
     #feed-posts{
         width: 70%;
@@ -13,3 +14,57 @@
         height: 100%;
     }
 }
+// 
+
+.people-list {
+    width:260px;
+    float: left;
+    
+    .search {
+      padding: 20px;
+    }
+    
+    input {
+      border-radius: 3px;
+      border: none;
+      padding: 14px;
+      color: white;
+      background: #6A6C75;
+      width: 90%;
+      font-size: 14px;
+    }
+    
+    .fa-search {
+      position: relative;
+      left: -25px;
+    }
+    
+    ul {
+      padding: 20px;
+      height: 770px;
+   
+      
+      
+      li {
+        padding-bottom: 20px;
+      }
+    }
+    
+    img {
+      float: left;
+    }
+    
+    .about {
+      float: left;
+      margin-top: 8px;
+    }
+    
+    .about {
+      padding-left: 8px;
+    }
+    
+    .status {
+      color: $gray;
+    }
+    
+  }

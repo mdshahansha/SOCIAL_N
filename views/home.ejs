@@ -25,14 +25,35 @@
         
         <section id="user-friends">
             <h4>Friends</h4>
+            <div class="people-lis">
             <% for(u of all_users){%>
                 <p>
-                    <a href="/users/profile/<%= u.id %>"><%= u.name %></a>
+                        <div class="about">
+                          <div class="name">  <a href="/users/profile/<%= u.id %>"><%= u.name %></a></div>
+                          <div class="status">
+                            <i class="fa fa-circle online"></i>  
+                          </div>
+                        </div>
+                   
+                    <!-- <a href="/users/profile/<%= u.id %>"><%= u.name %></a> -->
                 </p>
-            <% } %>
-        </section>
 
+                <!-- <li class="clearfix">
+          <img src="https://image.flaticon.com/icons/png/512/4128/4128176.png" alt="avatar" />
+          <div class="about">
+            <div class="name">  <a href="/users/profile/<%= u.id %>"><%= u.name %></a></div>
+            <div class="status">
+              <i class="fa fa-circle online"></i> online
+            </div>
+          </div>
+        </li> -->
+
+            <% } %>
+        </div>
+        </section>
+<div class="app-profile-box">
     <%- include('_chat_box') -%>
+</div>
 </div>
 
 <!-- importing this script for creating the comments -->
