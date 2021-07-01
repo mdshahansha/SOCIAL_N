@@ -81,3 +81,7 @@ export CODEIAL_GMAIL_PASSWORD="yssiimkivqvtgkhu"
 export CODEIAL_JWT_SECRET="EqUBlhIIvjdRNQKH2XZuGO4X5DNdOJ1z"
 
 */ 
+
+
+// JSON part ddeployment
+// "prod_start":" NODE_ENV=production nodemon index.js"
